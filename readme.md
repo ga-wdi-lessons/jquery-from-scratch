@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # jQuery from Scratch
 
 ## Learning Objectives
@@ -110,3 +113,16 @@ els.html = function(){
 
 
 ### You do: Get / Set value `.val()`
+
+1. Define a new method `val`
+1. If no arguments are given, return the element's value
+1. If one argument is given, set the element's value to the provided argument.
+
+### You do:
+
+Count off 1-4
+
+1. find(), siblings(), children()
+1. hide(), show(), toggle()
+1. append(), prepend()
+1. addClass(), toggleClass()
