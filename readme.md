@@ -11,10 +11,14 @@
 
 ## Hello, jQuery
 
+We know jQuery is a function because `typeof $ === "function"`
+
 ```
 var $ = function(selector){
   return document.querySelector(selector)
 }
+
+$(".box") // returns a DOM element
 ```
 
 ## IIFE
@@ -29,6 +33,8 @@ var $ = (function(){
   }
   return jakeWeary
 })()
+
+// typing jakeWeary in the console gives uncaught reference error
 ```
 
 ## Events
@@ -96,12 +102,28 @@ var jakeWeary = function(selector){
   ...
 ```
 
+### Ternary operators
+
+```js
+var shoesToWear = itIsRaining ? "galoshes" : "sandals"
+
+// is equivalent to
+
+if(itIsRaining){
+  var shoesToWear = "galoshes"
+} else {
+  var shoesToWear = "sandals"
+}
+```
+
 ## HTML
+
+### Reading
 
 ```js
 els.html = function(){
   for(var i = 0; i < els.length; i++){
-    return els[i].innerHTML 
+    return els[i].innerHTML
   }
 }
 ```
@@ -109,8 +131,7 @@ els.html = function(){
 ### You do: Allow updating the HTML
 
 1. Add a new argument to HTML method
-1. Update the `innerHTML` with the argument's value
-
+1. if the argument is not undefined, update the `innerHTML` with the argument's value
 
 ### You do: Get / Set value `.val()`
 
@@ -126,3 +147,4 @@ Count off 1-4
 1. hide(), show(), toggle()
 1. append(), prepend()
 1. addClass(), toggleClass()
+
