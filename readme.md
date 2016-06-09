@@ -1,6 +1,6 @@
 ---
-layout: default
 ---
+
 # jQuery from Scratch
 
 ## Learning Objectives
