@@ -13,7 +13,7 @@
 
 We know jQuery is a function because `typeof $ === "function"`
 
-```
+```js
 var $ = function(selector){
   return document.querySelector(selector)
 }
