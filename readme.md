@@ -9,6 +9,12 @@
 - identify common DOM methods used in jQuery methods
 - Practice DOM manipulation w/ vanilla js
 
+## Live Coding
+
+Today, I'll be coding on the server - meaning you'll have access to my code _instantly_!
+
+http://www.wdidc.org/~jesse/jquery-from-scratch/jakeWeary.js
+
 ## Hello, jQuery
 
 We know jQuery is a function because `typeof $ === "function"`
