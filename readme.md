@@ -13,6 +13,8 @@
 
 Today, I'll be coding on the server - meaning you'll have access to my code _instantly_!
 
+Remember to refresh the page for the latest changes.
+
 http://www.wdidc.org/~jesse/jquery-from-scratch/jakeWeary.js
 
 ## Hello, jQuery
